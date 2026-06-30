@@ -499,10 +499,14 @@ footer { border-top: 1px solid var(--line); padding: 24px clamp(20px, 5vw, 80px)
         <div class="status-box"><strong>✅ Open to:</strong> Software Development · Web Development · AI/ML · Technology Leadership internships — remote or on-site across India.</div>
       </div>
       <div class="reveal" style="transition-delay:.1s">
-        <form class="cform" onsubmit="handleForm(event)">
-          <div class="cf-row"><div class="cf-group"><label>Your Name</label><input type="text" placeholder="Recruiter / Collaborator" required></div><div class="cf-group"><label>Email</label><input type="email" placeholder="hello@company.com" required></div></div>
-          <div class="cf-group"><label>Subject</label><input type="text" placeholder="Internship Opportunity / Collaboration"></div>
-          <div class="cf-group"><label>Message</label><textarea rows="5" placeholder="Tell me about the role or opportunity..."></textarea></div>
+        <form
+  class="cform"
+  id="contactForm"
+  action="https://formspree.io/f/mwvdnakd"
+  method="POST">
+          <div class="cf-row"><div class="cf-group"><label>Your Name</label><input type="text" name="name" placeholder="Recruiter / Collaborator" required></div><div class="cf-group"><label>Email</label><input type="email" name="email" placeholder="hello@company.com" required></div></div>
+          <div class="cf-group"><label>Subject</label><input type="text" name="subject" placeholder="Internship Opportunity / Collaboration"></div>
+          <div class="cf-group"><label>Message</label><textarea rows="5" name="message" placeholder="Tell me about the role or opportunity..."></textarea></div>
           <button type="submit" class="btn-send" id="sendBtn">Send Message →</button>
         </form>
       </div>
@@ -525,6 +529,6 @@ document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click'
 const io = new IntersectionObserver((entries) => { entries.forEach((e, i) => { if (e.isIntersecting) { setTimeout(() => e.target.classList.add('in'), i * 60); io.unobserve(e.target); } }); }, { threshold: 0.08, rootMargin: '0px 0px -24px 0px' });
 document.querySelectorAll('.reveal, .reveal-l').forEach(el => io.observe(el));
 document.querySelectorAll('.pf').forEach(btn => btn.addEventListener('click', () => { document.querySelectorAll('.pf').forEach(b => b.classList.remove('on')); btn.classList.add('on'); const f = btn.dataset.f; document.querySelectorAll('.proj-card').forEach(card => { card.style.display = (f === 'all' || (card.dataset.tags || '').includes(f)) ? 'flex' : 'none'; }); }));
-function handleForm(e) { e.preventDefault(); const btn = document.getElementById('sendBtn'); btn.textContent = '✓ Message sent!'; btn.style.background = '#0d9488'; setTimeout(() => { btn.textContent = 'Send Message →'; btn.style.background = ''; e.target.reset(); }, 3000); }
+
 </script>
 </body></html>
