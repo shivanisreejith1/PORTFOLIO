@@ -54,7 +54,7 @@ I'm a Computer Science Engineering student passionate about building impactful s
 
 ## 🌐 Live Demo
 
-👉 **[shivanisreejith1.github.io/PORTFOLIO-/](https://shivanisreejith1.github.io/PORTFOLIO-/)**
+👉 https://shivanisreejith1.github.io/PORTFOLIO/
 
 ---
 
