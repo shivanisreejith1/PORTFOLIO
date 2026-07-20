@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Shivani S — Personal Portfolio
+#  Shivani S  - Personal Portfolio
 
 [![Live Site](https://img.shields.io/badge/🌐_Live_Site-Visit_Portfolio-4f46e5?style=for-the-badge)](https://shivanisreejith1.github.io/PORTFOLIO-/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shivanisreejith)
