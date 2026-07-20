@@ -42,13 +42,13 @@ I'm a Computer Science Engineering student passionate about building impactful s
 
 ## 📋 Sections
 
-- **About Me** — Background, interests, and goals
-- **Technical Skills** — Languages, tools, and frameworks
-- **Projects** — Detailed project showcases with descriptions
-- **Internships & Research** — Professional and academic experience
-- **Leadership** — Extracurricular roles and community involvement
-- **Certifications & Achievements** — Awards and credentials
-- **Resume** — Downloadable PDF resume
+- **About Me** : Background, interests, and goals
+- **Technical Skills** : Languages, tools, and frameworks
+- **Projects** : Detailed project showcases with descriptions
+- **Internships & Research** : Professional and academic experience
+- **Leadership** : Extracurricular roles and community involvement
+- **Certifications & Achievements** : Awards and credentials
+- **Resume** : Downloadable PDF resume
 
 ---
 
